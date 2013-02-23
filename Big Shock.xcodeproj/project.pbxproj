@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82238B1E16D963E600EF5693 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82238B1D16D963E600EF5693 /* Cocoa.framework */; };
+		82238B2816D963E600EF5693 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82238B2616D963E600EF5693 /* InfoPlist.strings */; };
+		82238B2A16D963E600EF5693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82238B2916D963E600EF5693 /* main.m */; };
+		82238B2E16D963E600EF5693 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82238B2C16D963E600EF5693 /* Credits.rtf */; };
+		82238B3116D963E600EF5693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82238B3016D963E600EF5693 /* AppDelegate.m */; };
+		82238B3416D963E600EF5693 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82238B3216D963E600EF5693 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82238B1A16D963E600EF5693 /* Big Shock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Shock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82238B1D16D963E600EF5693 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82238B2016D963E600EF5693 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82238B2116D963E600EF5693 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82238B2216D963E600EF5693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82238B2516D963E600EF5693 /* Big Shock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Big Shock-Info.plist"; sourceTree = "<group>"; };
+		82238B2716D963E600EF5693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82238B2916D963E600EF5693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82238B2B16D963E600EF5693 /* Big Shock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Big Shock-Prefix.pch"; sourceTree = "<group>"; };
+		82238B2D16D963E600EF5693 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82238B2F16D963E600EF5693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82238B3016D963E600EF5693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82238B3316D963E600EF5693 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82238B1716D963E600EF5693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82238B1E16D963E600EF5693 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82238B1116D963E600EF5693 = {
+			isa = PBXGroup;
+			children = (
+				82238B2316D963E600EF5693 /* Big Shock */,
+				82238B1C16D963E600EF5693 /* Frameworks */,
+				82238B1B16D963E600EF5693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82238B1B16D963E600EF5693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82238B1A16D963E600EF5693 /* Big Shock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82238B1C16D963E600EF5693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82238B1D16D963E600EF5693 /* Cocoa.framework */,
+				82238B1F16D963E600EF5693 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82238B1F16D963E600EF5693 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82238B2016D963E600EF5693 /* AppKit.framework */,
+				82238B2116D963E600EF5693 /* CoreData.framework */,
+				82238B2216D963E600EF5693 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82238B2316D963E600EF5693 /* Big Shock */ = {
+			isa = PBXGroup;
+			children = (
+				82238B2F16D963E600EF5693 /* AppDelegate.h */,
+				82238B3016D963E600EF5693 /* AppDelegate.m */,
+				82238B3216D963E600EF5693 /* MainMenu.xib */,
+				82238B2416D963E600EF5693 /* Supporting Files */,
+			);
+			path = "Big Shock";
+			sourceTree = "<group>";
+		};
+		82238B2416D963E600EF5693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82238B2516D963E600EF5693 /* Big Shock-Info.plist */,
+				82238B2616D963E600EF5693 /* InfoPlist.strings */,
+				82238B2916D963E600EF5693 /* main.m */,
+				82238B2B16D963E600EF5693 /* Big Shock-Prefix.pch */,
+				82238B2C16D963E600EF5693 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82238B1916D963E600EF5693 /* Big Shock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82238B3716D963E600EF5693 /* Build configuration list for PBXNativeTarget "Big Shock" */;
+			buildPhases = (
+				82238B1616D963E600EF5693 /* Sources */,
+				82238B1716D963E600EF5693 /* Frameworks */,
+				82238B1816D963E600EF5693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Big Shock";
+			productName = "Big Shock";
+			productReference = 82238B1A16D963E600EF5693 /* Big Shock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82238B1216D963E600EF5693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tony Mantler";
+			};
+			buildConfigurationList = 82238B1516D963E600EF5693 /* Build configuration list for PBXProject "Big Shock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82238B1116D963E600EF5693;
+			productRefGroup = 82238B1B16D963E600EF5693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82238B1916D963E600EF5693 /* Big Shock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82238B1816D963E600EF5693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82238B2816D963E600EF5693 /* InfoPlist.strings in Resources */,
+				82238B2E16D963E600EF5693 /* Credits.rtf in Resources */,
+				82238B3416D963E600EF5693 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82238B1616D963E600EF5693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82238B2A16D963E600EF5693 /* main.m in Sources */,
+				82238B3116D963E600EF5693 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82238B2616D963E600EF5693 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82238B2716D963E600EF5693 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82238B2C16D963E600EF5693 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82238B2D16D963E600EF5693 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82238B3216D963E600EF5693 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82238B3316D963E600EF5693 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82238B3516D963E600EF5693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82238B3616D963E600EF5693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82238B3816D963E600EF5693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Big Shock/Big Shock-Prefix.pch";
+				INFOPLIST_FILE = "Big Shock/Big Shock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82238B3916D963E600EF5693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Big Shock/Big Shock-Prefix.pch";
+				INFOPLIST_FILE = "Big Shock/Big Shock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82238B1516D963E600EF5693 /* Build configuration list for PBXProject "Big Shock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82238B3516D963E600EF5693 /* Debug */,
+				82238B3616D963E600EF5693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82238B3716D963E600EF5693 /* Build configuration list for PBXNativeTarget "Big Shock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82238B3816D963E600EF5693 /* Debug */,
+				82238B3916D963E600EF5693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82238B1216D963E600EF5693 /* Project object */;
+}
