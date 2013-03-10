@@ -8,8 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "EventTranslator.h"
+
+@class HIDListener;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (readwrite,retain) HIDListener *listener;
+@property (readwrite,retain) NSObject<EventTranslator> *translator;
 
 @end

@@ -13,6 +13,10 @@
 		82238B2E16D963E600EF5693 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82238B2C16D963E600EF5693 /* Credits.rtf */; };
 		82238B3116D963E600EF5693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82238B3016D963E600EF5693 /* AppDelegate.m */; };
 		82238B3416D963E600EF5693 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82238B3216D963E600EF5693 /* MainMenu.xib */; };
+		82238B3B16D96B5200EF5693 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82238B3A16D96B5200EF5693 /* IOKit.framework */; };
+		8242C28D16EAC50A00FF0255 /* EnglishKBEventTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8242C28C16EAC50A00FF0255 /* EnglishKBEventTranslator.m */; };
+		8242C29116EAC9D400FF0255 /* ThreeVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8242C29016EAC9D400FF0255 /* ThreeVector.m */; };
+		828C9B5516E96FB70063E8AA /* HIDListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 828C9B5416E96FB70063E8AA /* HIDListener.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,14 @@
 		82238B2F16D963E600EF5693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82238B3016D963E600EF5693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82238B3316D963E600EF5693 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82238B3A16D96B5200EF5693 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		8242C28B16EAC50A00FF0255 /* EnglishKBEventTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnglishKBEventTranslator.h; sourceTree = "<group>"; };
+		8242C28C16EAC50A00FF0255 /* EnglishKBEventTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishKBEventTranslator.m; sourceTree = "<group>"; };
+		8242C28E16EAC57600FF0255 /* EventTranslator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventTranslator.h; sourceTree = "<group>"; };
+		8242C28F16EAC9D400FF0255 /* ThreeVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeVector.h; sourceTree = "<group>"; };
+		8242C29016EAC9D400FF0255 /* ThreeVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeVector.m; sourceTree = "<group>"; };
+		828C9B5316E96FB70063E8AA /* HIDListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDListener.h; sourceTree = "<group>"; };
+		828C9B5416E96FB70063E8AA /* HIDListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDListener.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82238B3B16D96B5200EF5693 /* IOKit.framework in Frameworks */,
 				82238B1E16D963E600EF5693 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +76,7 @@
 		82238B1C16D963E600EF5693 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82238B3A16D96B5200EF5693 /* IOKit.framework */,
 				82238B1D16D963E600EF5693 /* Cocoa.framework */,
 				82238B1F16D963E600EF5693 /* Other Frameworks */,
 			);
@@ -85,6 +99,13 @@
 				82238B2F16D963E600EF5693 /* AppDelegate.h */,
 				82238B3016D963E600EF5693 /* AppDelegate.m */,
 				82238B3216D963E600EF5693 /* MainMenu.xib */,
+				828C9B5316E96FB70063E8AA /* HIDListener.h */,
+				828C9B5416E96FB70063E8AA /* HIDListener.m */,
+				8242C28B16EAC50A00FF0255 /* EnglishKBEventTranslator.h */,
+				8242C28C16EAC50A00FF0255 /* EnglishKBEventTranslator.m */,
+				8242C28E16EAC57600FF0255 /* EventTranslator.h */,
+				8242C28F16EAC9D400FF0255 /* ThreeVector.h */,
+				8242C29016EAC9D400FF0255 /* ThreeVector.m */,
 				82238B2416D963E600EF5693 /* Supporting Files */,
 			);
 			path = "Big Shock";
@@ -168,6 +189,9 @@
 			files = (
 				82238B2A16D963E600EF5693 /* main.m in Sources */,
 				82238B3116D963E600EF5693 /* AppDelegate.m in Sources */,
+				828C9B5516E96FB70063E8AA /* HIDListener.m in Sources */,
+				8242C28D16EAC50A00FF0255 /* EnglishKBEventTranslator.m in Sources */,
+				8242C29116EAC9D400FF0255 /* ThreeVector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +325,7 @@
 				82238B3916D963E600EF5693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
